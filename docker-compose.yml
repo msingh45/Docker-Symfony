@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+
+  symfony:
+    container_name: symfony
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - './symfonyProject:/home/symfony/symfonyProject'
+    ports:
+      - '8000:8000'
+
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=password
+    restart: always
