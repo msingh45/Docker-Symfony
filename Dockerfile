@@ -8,9 +8,9 @@ RUN curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
 RUN chmod a+x+r /usr/local/bin/symfony
 RUN mkdir -p /home/symfony/symfonyProject
 
-WORKDIR /home/symfony/symfonyProject
+COPY symfonyProject /home/symfony/symfonyProject
 
-RUN symfony new . 3.4
+WORKDIR /home/symfony/symfonyProject
 
 EXPOSE 8000
 
