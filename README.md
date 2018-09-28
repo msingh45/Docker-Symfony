@@ -9,7 +9,7 @@ https://symfony.com/
 ### Setup instructions:
 
 **1. Download and install docker**
-   Go to the [Docker website](https://www.docker.com/) and install Docker for your respective operations system
+   Go to the [Docker website](https://www.docker.com/) and install Docker for your respective operating system
 
 **2. Download the *docker-compose.yml* included in this repository**
 
