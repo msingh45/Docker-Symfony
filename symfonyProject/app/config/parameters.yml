@@ -1,12 +1,12 @@
 # This file is auto-generated during the composer install
 parameters:
     database_host: db
-    database_port: null
-    database_name: postgres
-    database_user: postgres
+    database_port: 3306
+    database_name: symfony
+    database_user: admin
     database_password: password
     mailer_transport: smtp
-    mailer_host: 127.0.0.1
+    mailer_host: null
     mailer_user: null
     mailer_password: null
     secret: 2845cc633ccec013c16e4cd07017628d0f29be55

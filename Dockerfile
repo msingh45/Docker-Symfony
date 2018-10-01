@@ -2,6 +2,7 @@ FROM php:7
 
 RUN apt-get update && apt-get upgrade
 RUN apt-get install curl -y && apt-get install zip -y
+RUN docker-php-ext-install pdo_mysql
 
 RUN mkdir -p /usr/local/bin
 RUN curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
