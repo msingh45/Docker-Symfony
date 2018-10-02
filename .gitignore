@@ -172,5 +172,9 @@ GitHub.sublime-settings
 /web/css/
 /web/js/
 
-
+# Other crap
+symfonyProject/.idea/
+db/
+.DS_Store
+symfonyProject/.DS_Store
 # End of https://www.gitignore.io/api/symfony,sublimetext,phpstorm+all
