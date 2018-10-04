@@ -14,5 +14,7 @@ COPY symfonyProject /home/symfony/symfonyProject
 
 WORKDIR /home/symfony/symfonyProject
 
+RUN composer update && bin/console cache:clear
+
 ENTRYPOINT ["php"]
 CMD ["bin/console", "server:run", "0.0.0.0:8000"]
