@@ -25,9 +25,9 @@ https://symfony.com/
 
 | Property      | Value          |
 | ------------- |-------------|
-| Database Type      | PostgreSQL |
-| Database Name      | `postgres`      |
-| Username | `postgres`      |
+| Database Type      | MySQL |
+| Database Name      | `symfony`      |
+| Username | `admin`      |
 | Password | `password`     |
 | Database Host | `db`      |
 | Database Port | *Leave Blank*      |
