@@ -12,6 +12,7 @@ services:
       - './symfonyProject/src:/home/symfony/symfonyProject/src'
       - './symfonyProject/tests:/home/symfony/symfonyProject/tests'
       - './symfonyProject/web:/home/symfony/symfonyProject/web'
+      - './symfonyProject/composer.json:/home/symfony/symfonyProject/composer.json'
     ports:
       - '8000:8000'
 
